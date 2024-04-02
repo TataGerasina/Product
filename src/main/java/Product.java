@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Product {
     protected int id;
     protected String title;
@@ -45,4 +47,5 @@ public class Product {
 
     // геттеры + сеттеры
     // на id только геттер — пусть будет неизменяемым для товара
+
 }
